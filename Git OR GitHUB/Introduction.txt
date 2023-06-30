@@ -44,7 +44,7 @@ git push origin <branch-name>        -> Upload ur Project to Github
 
 EXTRA COMMANDS:
 
-git status -> Check current status of your project
-git log --oneline -> Check ur commits history
-
+git status                                                      -> Check current status of your project
+git log --oneline                                               -> Check ur commits history
+git reset --hard "head number extracted from git log --oneline" -> Reset ur local code to any particular commit
 
