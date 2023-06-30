@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags and Inline Block</title>
+</head>
+<body>
+    <h1>I am a block element</h1>
+    <p>I am also a block element</p>
+    <strong>I am inline 1</strong> <i>I ma line 2</i> 
+    <b>I am inline 3</b>
+    <div>
+        <h1>I am a block element</h1>
+        <p>I am also a block element</p>
+        <strong>I am inline 1</strong> <i>I ma line 2</i> 
+        <b>I am inline 3</b>
+    </div>
+    <!-- inline elements not contain block elements inside -->
+    <!-- <strong>
+        <div>
+            harris
+        </div>
+        <p>MUHAMMAD</p>
+    </strong> -->
+    <hr>
+    <table border="50">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>Muhammad</td>
+            <td>Ahmed</td>
+        </tr>
+        <tr>
+            <td>Ayesha</td>
+            <td>Akbar</td>
+        </tr>
+    </table>
+    <!-- //SEMANTIC TAGS -->
+    <!-- Header tags contains navbar mostly and some information -->
+    <header>
+        <!-- navigation links -->
+        <nav>
+            <li>Home</li>
+            <li>About Us</li>
+        </nav>
+    </header>
+    <!-- main is mostly use and it has aside and different, not compulsory to use main -->
+    <main> 
+        <!-- aside navbar mostly on left side and used for navigation -->
+        <aside>
+            Dashboard 
+            Settings
+        </aside>
+        <!-- section are individual groups of contents -->
+        <section>
+            <h1>Pizza Hut</h1>
+            <p>Delivers Pizza</p>
+        </section>
+        <section>
+            <!-- <em> tag is read by the screen reader 
+            It is accessible
+            it is inline -->
+            <em>Muhammad Harris Baig</em> 
+            <!-- <i> tag is read by the screen reader
+            It is not accessible
+            it is also inline-->
+            <i>Muhammad Akbar Baig</i>   
+        </section>
+    </main>
+    <footer>
+        <h3>This is a footer</h3>
+    </footer>
+    <!-- aria is basically used for increase the accessibility, a lot of divisions ,detected
+    by screen reader for people with disability and detecting the code 0detecting the code, 
+    aria stands for Accessible Rich Internet Applications, in built aria for each tag
+    set of attributes basically that defines ways to make web applications and web-content more
+    accessible to people having some disabilities, aria cannot write again and again
+    -->
+    <div aria-atomic="true">
+        HI
+    </div>
+</body>
+</html>

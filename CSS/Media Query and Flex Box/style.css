@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #7C83fd;
+    padding: 200px;
+}
+
+/* 
+@media (min-width: 768px) {
+    body{
+        background-color: #FCD8D4;
+    }    
+}
+
+@media (min-width:1024px){
+    body{
+        background-color: #ECD662;
+    }
+}
+
+@media (min-width: 1280px) {
+    body{
+        background-color: #A3A847;
+    }    
+} */
+
+.Parent{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 5px;
+    /* flex-direction: row by default; */
+    flex-direction: column;
+    /* flex-wrap not shrink child width but move to next line (2nd line) when it reaches parents end*/
+    flex-wrap: wrap;
+    /* flex-start by default */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* full space btw items */
+    /* justify-content: space-between; */
+     /* unequal space btw items */
+    /* justify-content: space-around; */
+     /* equal space btw items */
+    /* justify-content: space-evenly; */
+    flex-flow: row wrap;
+    /* flex-grow: initial;
+    flex-basis: content; */
+    /* flex-shrink: initial; */
+    /* IMPORTANT NOTE! */
+    /* justify-content: actually places the entire group of elements to the center WHILE align-items places the individual group of elements to the center  */
+    /* align-items: center; */
+    /* align-items baseline indicates they are same from base */
+    /* align-items: baseline; */
+    /* align-item to flex-end: they are placed entire at the bottom of parent element */
+    /* align-items: flex-end; */
+    /* center content wrt x-axis vertically */
+    /* align-items: center; */
+    /* center content wrt y-axis horizontally */
+    justify-content: center;
+} 
+
+.Child{
+    background-color: #D9D06B;
+    width: 120px;
+    height: 120px;
+}
+
+.Child-1{
+    background-color: #D9D06B;
+    width: 120px;
+    height: 120px;
+}
+
+.Child-2{
+    background-color: #8D2828;
+    width: 120px;
+    height: 150px;
+}

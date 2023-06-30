@@ -1,0 +1,44 @@
+/* EXTERNAL CSS */
+/* class selector */
+.my-style{
+    background-color: #c9d886;
+    color: #578378;
+    border: 3px solid  #c9d;
+    border-radius: 50px;
+    line-height: 1px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    /* Font-Variant: Capital All letters who are small 
+    and if someone text in already capital 
+    then he is huge and if all capital then no change */
+    font-variant: small-caps; 
+}
+/* Id selector */
+#my-id {
+    background-color:#FDD2BF ;
+    color: #DF5E5E;
+    /*sequence border-width border-style border-color*/
+    border: 3px dotted  #000;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2px;
+    text-shadow: #DF5E5E 2px 2px 2px;
+
+}
+/* element selector */
+p{
+    background-color: #CDF0EA;
+    color: #476072;
+    word-spacing: 36px;
+    text-align: justify;
+    font-size: 25px;
+}
+/* overwrite */
+/* h1{
+    color: #000;
+} */
+

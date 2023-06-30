@@ -1,0 +1,23 @@
+Git is basically a free open source or version control system.
+Git allow users to track their repositories using version control system because;
+
+-> we can control versions
+-> we can control and track changes
+-> we can also upgrade and revert it also.
+
+This Practicing of tracking and managing of applications is basically known as version control system.
+It is design to handle small and large applications.
+ 
+WHY GIT?
+Distributed: Git is fully Distributed so anyone can clone and copy the repositories and push 
+or pull the specific repositories and also merge their work with other one.
+
+Collaboration: 
+Git is Collaborator Hosters, easy to share and hosting repositories to collaborate 
+with others and work ina collaborating way. 
+
+Tracking Changes:
+Users track project while working together from anywhere with easy ,methods
+
+Recovery:
+Git provides few sets of commands to recover the project

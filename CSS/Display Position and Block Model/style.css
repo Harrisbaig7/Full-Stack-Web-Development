@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.my-style{
+    background-color: rgb(137, 109, 163);
+    color: aliceblue;
+    /*padding:  top right bottom left*/
+    padding:0px;
+    padding: 0px 0px 0px 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 260px;
+    margin : 0px;
+    margin: 10px 10px 10px 10px;
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px; */
+}
+
+.parent{
+    position: relative;
+    background-color: #362222;
+    width: 100%;
+    height: 400px;
+}
+
+.child{
+    position: absolute;
+    /* display: none; */
+    /* display: block; */
+    display: inline-block;
+    background-color: #fdd28f;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    top: 0px;
+    right: 0px;
+}
+
+.fixed{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.sticky{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}
+
+.fixedChild{
+    background-color: #fdd28f;
+    width: 100px;
+    height: 40px;
+}
+
+.stickyChild{
+    background-color: #fdd28f;
+    width: 125px;
+    height: 40px;
+}
