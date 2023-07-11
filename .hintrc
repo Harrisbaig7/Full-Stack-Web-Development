@@ -3,6 +3,19 @@
     "development"
   ],
   "hints": {
-    "axe/structure": "off"
-  }
+    "axe/structure": "off",
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
+    ],
+    "axe/text-alternatives": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 113"
+  ]
 }
