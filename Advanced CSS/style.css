@@ -103,6 +103,8 @@ p::after{
     animation-delay: 2s;
 }
 
+/* Use keframe tags in media query tags for responsive design */
+
 @keyframes abc {
     20%{
         margin-left:500px ;
