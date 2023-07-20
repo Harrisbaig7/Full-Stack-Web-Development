@@ -29,3 +29,43 @@ console.log("Hello This Code is From my Html File");
 // const name = "Ahmed";
 // const year = 2021;
 // console.log(name + " " + year);
+
+const okay = true;
+console.log(okay);
+
+const one  =1;
+const two = 2.2;
+console.log(one + two);
+var number = [1,2,3,4,5,100]
+console.log(typeof(number));
+console.log(number);
+
+console.log(one + two);
+var numbers = [1,2,3,4,5,100,"HARRIS"]
+console.log(typeof(numbers));
+
+console.log(numbers[6]);
+console.log(numbers.length);
+
+var obj = {
+    //key : value
+    name : "Harris",    
+    id : 1,
+    year : 2021,
+    exam :{
+        mid :"pass",
+        final:"pass"
+    },
+    test: ["fail","pass","fail"],
+    "full name": "Muhammad Harris"
+}
+
+console.log(obj);
+console.log(obj.name);
+console.log(obj.id);
+console.log(obj.year);
+console.log(obj.exam);
+console.log(obj.test);
+console.log(obj.exam.mid);
+console.log(obj.test[1]);
+console.log(obj["full name"])
