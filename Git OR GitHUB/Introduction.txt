@@ -19,5 +19,32 @@ with others and work ina collaborating way.
 Tracking Changes:
 Users track project while working together from anywhere with easy ,methods
 
-Recovery:
-Git provides few sets of commands to recover the project
+Recovery:Git provides few sets of commands to recover the project
+
+GIT COMMANDS:
+
+-> git config --global user.name    "your github username"
+-> git config --global user.email   "Your github email"
+
+FOR USERS WHO WANT TO PUSH IN THEIR NEWLY CREATED REPO:
+
+git init                             -> Initialize an empty git repo
+git add .                            -> Add all ur files
+git remote add origin <link>         -> Connect ur Machine to Github
+git commit -m "Your commit messages" -> To represent your changes
+git branch <branch-name>             -> To represent the current branch
+git checkout -b <branch-name>        -> Create a new branch if it does not exist
+git push origin <branch-name>        -> Upload ur Project to Github
+
+FOR REST OF THE TIMES:
+
+git add .                            -> Add all ur files
+git commit -m "Your commit messages" -> To represent your changes
+git push origin <branch-name>        -> Upload ur Project to Github
+
+EXTRA COMMANDS:
+
+git status                                                      -> Check current status of your project
+git log --oneline                                               -> Check ur commits history
+git reset --hard "head number extracted from git log --oneline" -> Reset ur local code to any particular commit
+

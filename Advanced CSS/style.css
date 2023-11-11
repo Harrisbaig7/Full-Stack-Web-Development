@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+                                /* PSEUDO CLASSES*/
+
+/* pseudo classes are the state of an element like :hover, :focus, :active etc */
+/* pseudo classes have backend functionality but we use it to do additional functionality */
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: yellow;
+}
+
+/*Container is parent it is having a class box1 first child of the container 
+as box 1 has first child h3 so it has no red color 
+as box2 class  has first child paragraph p so it turn into red color, 
+if Box1 has first child p then it turn into red also   
+container paragraphs p1 and p2 are not the first child*/
+.container p:first-child{
+    color: red;
+}
+
+.container p:last-child{
+    color: blue;
+}
+
+/* .container p:nth-child(2){
+    color: green;
+} */
+
+.container p:nth-child(even){
+    color: yellow;
+}
+
+/*even or odd is a keyword*/
+/*nth-child 2n for even or 2n+1 fpr odd*/
+/* .container p:nth-child(2n+1){ 
+    color: yellow;
+} */
+
+p::before{
+    content: "Hello";
+    color: #fff;
+    background-color: red;
+    display: block;
+}
+
+p::after{
+    content: "World";
+    color: #fff;
+    background-color: green;
+    display: block;
+}
+
+                            /* TRANSITIONS*/
+.div__container{
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: red;
+    /* name of the property on which transition applied */
+    /* transition-property: width,height; */
+    /* all is ued to apply transition on all properties for specific elements */
+    /* transition-property: all; */
+    /* Effect of transition occur after 2 s of delay */
+    /* transition-delay: 2s; */
+    /* duration of transition is 1 s of delay */  
+    /* transition-duration: 1s; */
+    /* shortcut method  */
+    transition: all 0.5s;
+}
+
+.div__container:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: green;
+    /* transform: rotate(180deg); */
+}
+
+                            /* ANIMATIONS */
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    /* for one time */
+    /* animation: 10s abc; */
+    /* for many times */
+    animation: 10s abc infinite;
+    animation-delay: 2s;
+}
+
+/* Use keframe tags in media query tags for responsive design */
+
+@keyframes abc {
+    20%{
+        margin-left:500px ;
+        background-color: red;
+    }
+    50%{
+        margin-left:500px ;
+        background-color: black;
+        transform: rotate(30deg);
+    }
+}
